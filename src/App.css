@@ -2,6 +2,12 @@
 @import "~slick-carousel/slick/slick-theme.css";
 @import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
 
+:root {
+  --win-color:#13cf00;
+  --draw-color:#76766f;
+  --lose-color: #d81920;
+}
+
 .navbar-title {
   font-family: 'Anton', sans-serif;
   font-size: 1.7rem;
@@ -57,4 +63,47 @@
 .prev {
   left: -10%;
   top: 20%;
+}
+
+/* Standings styles */
+
+.league-img {
+  width: 300px;
+  padding: 10px 0 10px 0;
+}
+
+.win-style {
+  color: white;
+  width: 30px;
+  height: 30px;
+  line-height: 28px;
+  display: inline-block;
+  text-align: center;
+  vertical-align: middle;
+  background: var(--win-color);
+  border-radius: 100%;
+}
+
+.draw-style {
+  color: white;
+  width: 30px;
+  height: 30px;
+  line-height: 28px;
+  display: inline-block;
+  text-align: center;
+  vertical-align: middle;
+  background: var(--draw-color);
+  border-radius: 100%;
+}
+
+.lose-style {
+  color: white;
+  width: 30px;
+  height: 30px;
+  line-height: 28px;
+  display: inline-block;
+  text-align: center;
+  vertical-align: middle;
+  background: var(--lose-color);
+  border-radius: 100%;
 }
