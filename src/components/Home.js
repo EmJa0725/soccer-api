@@ -2,18 +2,13 @@ import React, { Fragment } from 'react'
 import { Link} from "react-router-dom";
 import { useState } from "react";
 import { FiChevronRight, FiChevronLeft } from "react-icons/fi";
+import { leagues } from '../config/leaguesDictionary';
 
 import Slider from "react-slick";
-import premier from "../assets/premier-logo.png";
-import ligueOne from "../assets/ligue-one-logo.png";
-import laLiga from "../assets/la-liga-logo.png";
-import serieA from "../assets/serie-a-logo.png";
-import bundesliga from "../assets/bundesliga-logo.png";
+
 
 const Home = () => {
-    const leagues = [premier, laLiga, ligueOne, serieA, bundesliga];
-    const leagueNames = ['premier', 'laLiga', 'ligueOne', 'seriaA', 'bundesliga'];
-    
+
     const NextArrow = ({ onClick }) => {
         return (
             <div className="arrow next" onClick={onClick}>
@@ -48,10 +43,10 @@ const Home = () => {
         <Fragment>
             <div className="sliderContainer">
                 <Slider {...settings}>
-                    {leagues.map((img, idx) => (
+                    {leagues.map((league, idx) => (
                         <div key={idx} className={idx === imageIndex ? "slide activeSlide" : "slide"}>
-                            <Link to={`standings/${leagueNames[idx]}`} state={{ data: leagueNames[idx] }}>
-                                <img src={img} alt={img} />
+                            <Link to={`standings/${league.name}`} state={{ data: {...league}}}>
+                                <img src={league.logo} alt={league.name} />
                             </Link>
                         </div>
                     ))}

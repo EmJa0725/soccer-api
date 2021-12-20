@@ -1,6 +1,6 @@
 @import "~slick-carousel/slick/slick.css";
 @import "~slick-carousel/slick/slick-theme.css";
-@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Oswald:wght@500&family=Playfair+Display:wght@500;700&display=swap');
 
 :root {
   --win-color:#13cf00;
@@ -8,20 +8,46 @@
   --lose-color: #d81920;
 }
 
+.App {
+  height: max-content;
+}
+
+.navbar {
+  padding: 0 !important;
+}
+
 .navbar-title {
-  font-family: 'Anton', sans-serif;
+  font-family: 'Oswald', serif;
   font-size: 1.7rem;
   letter-spacing: 2px;
 }
 
+.navbar-image {
+  width: 40px;
+  height: 50px;
+  border-radius: 10px;
+  padding: 8px;
+  box-sizing: border-box;
+  background-color: #eeeee7;
+}
+
+.selected > .navbar-image {
+  background-color: #a71883;
+}
+
+.navbar-image:hover {
+  background-color: #a71883;
+  transition: background-color 0.3s ease-in-out;
+}
+
 .sliderContainer {
-  width: 60%;
-  margin: 10rem auto;
-  height: 100%;
+  width: 50%;
+  height: 300px;
+  margin: 10rem auto;  
 }
 
 .slide img {
-  width: 70%;
+  width: 230px;
   height: 300px;
   padding: 20px;
   margin: 0 auto;
@@ -30,14 +56,43 @@
 .slide {
   transform: scale(0.2);
   transition: transform 300ms;
-  opacity: 0.5;
+  /* opacity: 0.5; */
 }
 
 .activeSlide {
+  --borderWidth: 3px;
   transform: scale(1.1);
-  opacity: 1;
-  border-radius: 10px 60px 10px 60px;
-  background-color: rgba(238, 224, 224, 0.342);
+  background: #1D1F20;
+  position: relative;
+  border-radius: var(--borderWidth);
+  width: auto !important;
+}
+
+.activeSlide:after {
+  content: '';
+  position: absolute;
+  top: calc(-1 * var(--borderWidth));
+  left: calc(-1 * var(--borderWidth));
+  height: calc(100% + var(--borderWidth) * 2);
+  width: calc(100% + var(--borderWidth) * 2);
+  background: linear-gradient(60deg, #f79533, #f37055, #ef4e7b, #a166ab, #5073b8, #1098ad, #07b39b, #6fba82);
+  border-radius: calc(2 * var(--borderWidth));
+  z-index: -1;
+  animation: animatedgradient 3s ease alternate infinite;
+  background-size: 300% 300%;
+}
+
+
+@keyframes animatedgradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
 }
 
 .arrow {
@@ -66,13 +121,24 @@
 }
 
 /* Standings styles */
+.table-header{
+  position:sticky;
+  top: 0 ;
+}
+
+.table-container {
+  width: 100%;
+  max-height: 80vh;
+  overflow: auto;
+  display: inline-block;
+}
 
 .league-img {
-  width: 300px;
+  width: 50px;
   padding: 10px 0 10px 0;
 }
 
-.win-style {
+.form {
   color: white;
   width: 30px;
   height: 30px;
@@ -80,30 +146,21 @@
   display: inline-block;
   text-align: center;
   vertical-align: middle;
+  border-radius: 100%;
+}
+
+.win {
   background: var(--win-color);
-  border-radius: 100%;
 }
 
-.draw-style {
-  color: white;
-  width: 30px;
-  height: 30px;
-  line-height: 28px;
-  display: inline-block;
-  text-align: center;
-  vertical-align: middle;
+.draw {
   background: var(--draw-color);
-  border-radius: 100%;
 }
 
-.lose-style {
-  color: white;
-  width: 30px;
-  height: 30px;
-  line-height: 28px;
-  display: inline-block;
-  text-align: center;
-  vertical-align: middle;
+.lose {
   background: var(--lose-color);
-  border-radius: 100%;
+}
+
+.form-column {
+  width: 18%;
 }
