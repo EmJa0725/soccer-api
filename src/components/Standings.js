@@ -29,6 +29,7 @@ const Standings = () => {
         try {
             const res = await axios(config);
             const standings = res.data.response[0].league.standings[0];
+            console.log(standings);
             setStandings([...standings]);
             setStandingData({ 
                 id: id,
@@ -68,7 +69,7 @@ const Standings = () => {
                                     <th className="table-header">GA</th>
                                     <th className="table-header">GD</th>
                                     <th className="table-header">Points</th>
-                                    <th className="table-header">Form</th>
+                                    <th className="table-header d-none d-lg-table-cell">Form</th>
                                 </tr>
                             </thead>
                             <tbody>
@@ -81,7 +82,7 @@ const Standings = () => {
                                                 style={{ width: '1.8rem' }}
                                                 className="img-fluid me-2"
                                             />
-                                            {item.team.name}
+                                            <span className="team-name">{item.team.name}</span>
                                         </td>
                                         <td>{item.all.played}</td>
                                         <td>{item.all.win}</td>
@@ -91,7 +92,7 @@ const Standings = () => {
                                         <td>{item.all.goals.against}</td>
                                         <td>{item.goalsDiff}</td>
                                         <td className="fw-bold">{item.points}</td>
-                                        <td className="form-column">{[...item.form].map((char, index) =>
+                                        <td className="form-column d-none d-lg-table-cell">{[...item.form].map((char, index) =>
                                             <span key={index} className={`form ${char === "W" ? "win" : char === "D" ? "draw" : "lose"} me-2`}>
                                                 {char}
                                             </span>

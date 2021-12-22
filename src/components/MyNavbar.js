@@ -9,7 +9,7 @@ import { leagues } from '../config/leaguesDictionary';
 
 const MyNavbar = () => {
     return (
-        <Navbar bg="dark" variant="dark" expand="lg">
+        <Navbar bg="dark" variant="dark" expand="lg" className="pt-xs-0 pt-md-0 pt-xs-0 pb-md-0">
             <Container>
                 <Navbar.Brand href="/">
                     <img

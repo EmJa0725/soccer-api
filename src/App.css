@@ -12,10 +12,6 @@
   height: max-content;
 }
 
-.navbar {
-  padding: 0 !important;
-}
-
 .navbar-title {
   font-family: 'Oswald', serif;
   font-size: 1.7rem;
@@ -38,6 +34,16 @@
 .navbar-image:hover {
   background-color: #a71883;
   transition: background-color 0.3s ease-in-out;
+}
+
+.navbar-toggler:focus {
+  box-shadow: 0 0 0 0.1rem;
+}
+
+.navbar-nav {
+  margin-top: 10px;
+  flex-direction: inherit !important;
+  justify-content: space-evenly !important;
 }
 
 .sliderContainer {
@@ -163,4 +169,52 @@
 
 .form-column {
   width: 18%;
+}
+
+@media screen and (max-width: 1300px) {
+  .form {
+    color: white;
+    width: 25px;
+    height: 25px;
+    line-height: 24px;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .form {
+    color: white;
+    font-size:12px;
+    width: 20px;
+    height: 20px;
+    line-height: 20px;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .navbar-title {
+    font-size: 1.7rem;
+  }
+
+  .table-container {
+    font-size: 10px;
+  }
+
+  .table>tbody {
+    vertical-align: middle !important;
+  }
+
+  .navbar-toggler:focus {
+    box-shadow: 0 0 0 0.1rem;
+  }
+}
+
+@media screen and (max-width: 600px) {
+
+  .navbar-title {
+    font-size: 1.2rem;
+  }
+
+  .team-name {
+    display: block;
+  }
 }
