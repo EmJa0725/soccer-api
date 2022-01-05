@@ -1,0 +1,37 @@
+{
+  "files": {
+    "main.css": "/soccer-api/static/css/main.084e4630.chunk.css",
+    "main.js": "/soccer-api/static/js/main.70de1d98.chunk.js",
+    "main.js.map": "/soccer-api/static/js/main.70de1d98.chunk.js.map",
+    "runtime-main.js": "/soccer-api/static/js/runtime-main.6c173839.js",
+    "runtime-main.js.map": "/soccer-api/static/js/runtime-main.6c173839.js.map",
+    "static/css/2.6ad4c8fc.chunk.css": "/soccer-api/static/css/2.6ad4c8fc.chunk.css",
+    "static/js/2.472a32be.chunk.js": "/soccer-api/static/js/2.472a32be.chunk.js",
+    "static/js/2.472a32be.chunk.js.map": "/soccer-api/static/js/2.472a32be.chunk.js.map",
+    "static/js/3.f24fad0d.chunk.js": "/soccer-api/static/js/3.f24fad0d.chunk.js",
+    "static/js/3.f24fad0d.chunk.js.map": "/soccer-api/static/js/3.f24fad0d.chunk.js.map",
+    "index.html": "/soccer-api/index.html",
+    "static/css/2.6ad4c8fc.chunk.css.map": "/soccer-api/static/css/2.6ad4c8fc.chunk.css.map",
+    "static/css/main.084e4630.chunk.css.map": "/soccer-api/static/css/main.084e4630.chunk.css.map",
+    "static/js/2.472a32be.chunk.js.LICENSE.txt": "/soccer-api/static/js/2.472a32be.chunk.js.LICENSE.txt",
+    "static/media/bundesliga-header-logo.447aed66.png": "/soccer-api/static/media/bundesliga-header-logo.447aed66.png",
+    "static/media/bundesliga-logo.e8b2d956.png": "/soccer-api/static/media/bundesliga-logo.e8b2d956.png",
+    "static/media/index.css": "/soccer-api/static/media/football-stadium.140b5395.jpg",
+    "static/media/la-liga-header-logo.9c1c55d1.png": "/soccer-api/static/media/la-liga-header-logo.9c1c55d1.png",
+    "static/media/la-liga-logo.f7aa0568.png": "/soccer-api/static/media/la-liga-logo.f7aa0568.png",
+    "static/media/ligue-one-header-logo.0848d19e.png": "/soccer-api/static/media/ligue-one-header-logo.0848d19e.png",
+    "static/media/ligue-one-logo.9053311a.png": "/soccer-api/static/media/ligue-one-logo.9053311a.png",
+    "static/media/premier-header-logo.a115dfdf.png": "/soccer-api/static/media/premier-header-logo.a115dfdf.png",
+    "static/media/premier-logo.47c55bef.png": "/soccer-api/static/media/premier-logo.47c55bef.png",
+    "static/media/seria-a-header-logo.a2510661.png": "/soccer-api/static/media/seria-a-header-logo.a2510661.png",
+    "static/media/serie-a-logo.c4b60f6a.png": "/soccer-api/static/media/serie-a-logo.c4b60f6a.png",
+    "static/media/App.css": "/soccer-api/static/media/slick.c94f7671.ttf"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.6c173839.js",
+    "static/css/2.6ad4c8fc.chunk.css",
+    "static/js/2.472a32be.chunk.js",
+    "static/css/main.084e4630.chunk.css",
+    "static/js/main.70de1d98.chunk.js"
+  ]
+}
