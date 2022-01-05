@@ -1,17 +1,20 @@
 import React from 'react'
-import {NavLink } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 import Container from 'react-bootstrap/Container';
 import Navbar from 'react-bootstrap/Navbar';
-import Nav from'react-bootstrap/Nav';
+import Nav from 'react-bootstrap/Nav';
 import navbarIcon from "../assets/img/main/navbar-icon.png";
 import { leagues } from '../config/leaguesDictionary';
+import { useNavigate } from 'react-router-dom';
 
 
 const MyNavbar = () => {
+    const navigate = useNavigate();
+
     return (
-        <Navbar bg="dark" variant="dark" expand="lg" className="pt-xs-0 pt-md-0 pt-xs-0 pb-md-0">
+        <Navbar bg="dark" variant="dark" expand="lg" className="pt-xs-0 pt-md-0 pt-xs-0 pb-md-0 fixed-top">
             <Container>
-                <Navbar.Brand href="/">
+                <Navbar.Brand className="navbar-brand" onClick={() => navigate("/")}>
                     <img
                         alt=""
                         src={navbarIcon}

@@ -17,7 +17,7 @@ export const leagues = [
         id: 39,
         name: 'premier',
         logo: premierLogo,
-        headerLogo: premierHeaderLogo 
+        headerLogo: premierHeaderLogo
     },
     {
         id: 140,

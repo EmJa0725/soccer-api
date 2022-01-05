@@ -1,5 +1,5 @@
 import React, { Fragment } from 'react'
-import { Link} from "react-router-dom";
+import { Link } from "react-router-dom";
 import { useState } from "react";
 import { FiChevronRight, FiChevronLeft } from "react-icons/fi";
 import { leagues } from '../config/leaguesDictionary';
@@ -45,7 +45,7 @@ const Home = () => {
                 <Slider {...settings}>
                     {leagues.map((league, idx) => (
                         <div key={idx} className={idx === imageIndex ? "slide activeSlide" : "slide"}>
-                            <Link to={`standings/${league.name}`} state={{ data: {...league}}}>
+                            <Link to={`standings/${league.name}`} state={{ data: { ...league } }}>
                                 <img src={league.logo} alt={league.name} />
                             </Link>
                         </div>
