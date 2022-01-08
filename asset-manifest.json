@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/soccer-api/static/css/main.084e4630.chunk.css",
-    "main.js": "/soccer-api/static/js/main.70de1d98.chunk.js",
-    "main.js.map": "/soccer-api/static/js/main.70de1d98.chunk.js.map",
-    "runtime-main.js": "/soccer-api/static/js/runtime-main.6c173839.js",
-    "runtime-main.js.map": "/soccer-api/static/js/runtime-main.6c173839.js.map",
+    "main.css": "/soccer-api/static/css/main.c0218822.chunk.css",
+    "main.js": "/soccer-api/static/js/main.898bc7a3.chunk.js",
+    "main.js.map": "/soccer-api/static/js/main.898bc7a3.chunk.js.map",
+    "runtime-main.js": "/soccer-api/static/js/runtime-main.6df14646.js",
+    "runtime-main.js.map": "/soccer-api/static/js/runtime-main.6df14646.js.map",
     "static/css/2.6ad4c8fc.chunk.css": "/soccer-api/static/css/2.6ad4c8fc.chunk.css",
-    "static/js/2.472a32be.chunk.js": "/soccer-api/static/js/2.472a32be.chunk.js",
-    "static/js/2.472a32be.chunk.js.map": "/soccer-api/static/js/2.472a32be.chunk.js.map",
-    "static/js/3.f24fad0d.chunk.js": "/soccer-api/static/js/3.f24fad0d.chunk.js",
-    "static/js/3.f24fad0d.chunk.js.map": "/soccer-api/static/js/3.f24fad0d.chunk.js.map",
+    "static/js/2.287aaee6.chunk.js": "/soccer-api/static/js/2.287aaee6.chunk.js",
+    "static/js/2.287aaee6.chunk.js.map": "/soccer-api/static/js/2.287aaee6.chunk.js.map",
+    "static/js/3.ce7fd814.chunk.js": "/soccer-api/static/js/3.ce7fd814.chunk.js",
+    "static/js/3.ce7fd814.chunk.js.map": "/soccer-api/static/js/3.ce7fd814.chunk.js.map",
     "index.html": "/soccer-api/index.html",
     "static/css/2.6ad4c8fc.chunk.css.map": "/soccer-api/static/css/2.6ad4c8fc.chunk.css.map",
-    "static/css/main.084e4630.chunk.css.map": "/soccer-api/static/css/main.084e4630.chunk.css.map",
-    "static/js/2.472a32be.chunk.js.LICENSE.txt": "/soccer-api/static/js/2.472a32be.chunk.js.LICENSE.txt",
+    "static/css/main.c0218822.chunk.css.map": "/soccer-api/static/css/main.c0218822.chunk.css.map",
+    "static/js/2.287aaee6.chunk.js.LICENSE.txt": "/soccer-api/static/js/2.287aaee6.chunk.js.LICENSE.txt",
     "static/media/bundesliga-header-logo.447aed66.png": "/soccer-api/static/media/bundesliga-header-logo.447aed66.png",
     "static/media/bundesliga-logo.e8b2d956.png": "/soccer-api/static/media/bundesliga-logo.e8b2d956.png",
     "static/media/index.css": "/soccer-api/static/media/football-stadium.140b5395.jpg",
@@ -28,10 +28,10 @@
     "static/media/App.css": "/soccer-api/static/media/slick.c94f7671.ttf"
   },
   "entrypoints": [
-    "static/js/runtime-main.6c173839.js",
+    "static/js/runtime-main.6df14646.js",
     "static/css/2.6ad4c8fc.chunk.css",
-    "static/js/2.472a32be.chunk.js",
-    "static/css/main.084e4630.chunk.css",
-    "static/js/main.70de1d98.chunk.js"
+    "static/js/2.287aaee6.chunk.js",
+    "static/css/main.c0218822.chunk.css",
+    "static/js/main.898bc7a3.chunk.js"
   ]
 }
