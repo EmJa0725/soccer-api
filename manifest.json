@@ -1,6 +1,6 @@
 {
   "short_name": "Soccer api",
-  "name": "Create React App Sample",
+  "name": "European leagues standings",
   "icons": [
     {
       "src": "soccer-logo.png",
