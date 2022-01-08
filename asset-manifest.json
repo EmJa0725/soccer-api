@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/soccer-api/static/css/main.a701d98e.chunk.css",
+    "main.css": "/soccer-api/static/css/main.f880a4d3.chunk.css",
     "main.js": "/soccer-api/static/js/main.898bc7a3.chunk.js",
     "main.js.map": "/soccer-api/static/js/main.898bc7a3.chunk.js.map",
     "runtime-main.js": "/soccer-api/static/js/runtime-main.6df14646.js",
@@ -12,7 +12,7 @@
     "static/js/3.ce7fd814.chunk.js.map": "/soccer-api/static/js/3.ce7fd814.chunk.js.map",
     "index.html": "/soccer-api/index.html",
     "static/css/2.6ad4c8fc.chunk.css.map": "/soccer-api/static/css/2.6ad4c8fc.chunk.css.map",
-    "static/css/main.a701d98e.chunk.css.map": "/soccer-api/static/css/main.a701d98e.chunk.css.map",
+    "static/css/main.f880a4d3.chunk.css.map": "/soccer-api/static/css/main.f880a4d3.chunk.css.map",
     "static/js/2.287aaee6.chunk.js.LICENSE.txt": "/soccer-api/static/js/2.287aaee6.chunk.js.LICENSE.txt",
     "static/media/bundesliga-header-logo.447aed66.png": "/soccer-api/static/media/bundesliga-header-logo.447aed66.png",
     "static/media/bundesliga-logo.e8b2d956.png": "/soccer-api/static/media/bundesliga-logo.e8b2d956.png",
@@ -31,7 +31,7 @@
     "static/js/runtime-main.6df14646.js",
     "static/css/2.6ad4c8fc.chunk.css",
     "static/js/2.287aaee6.chunk.js",
-    "static/css/main.a701d98e.chunk.css",
+    "static/css/main.f880a4d3.chunk.css",
     "static/js/main.898bc7a3.chunk.js"
   ]
 }
