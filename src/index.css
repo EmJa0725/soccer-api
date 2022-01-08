@@ -2,13 +2,18 @@ body {
     font-style: #fff;
     background-image: url(./assets/img/main/football-stadium.jpg) ;
     background-size: cover;
-    height: 100vh;
+    min-height: 70vh;
+    max-height: 100vh;
 }
 
 @media screen and (max-width: 1200px) {
     body {
-        font-style: #fff;
-        background-image: url(./assets/img/main/football-stadium.jpg) ;
-        background-size: auto 120%;
+        background-size: auto 140%;
     }
-  }
+}
+
+@media screen and (max-width: 700px) {
+    body {
+        background-size: auto 180%;
+    }
+}

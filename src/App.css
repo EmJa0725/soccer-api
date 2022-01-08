@@ -10,6 +10,7 @@
 
 .App {
   height: max-content;
+  margin-top: 80px;
 }
 
 .navbar-title {
@@ -215,7 +216,11 @@
   }
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 992px) {
+  .App {
+    margin-top: 70px;
+  }
+
   .navbar-nav {
     background: #4878b7;
     margin: 20px 0 10px 0 !important;
@@ -258,6 +263,10 @@
 @media screen and (max-width: 600px) {
   .navbar-title {
     font-size: 1.2rem;
+  }
+
+  .navbar-toggler {
+    padding: 0 !important;
   }
 
   .team-name {
