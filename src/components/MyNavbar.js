@@ -13,10 +13,12 @@ const MyNavbar = () => {
     const navigate = useNavigate();
 
     const collapseToogle  = () => {
-        let myCollapse = document.getElementById('navbar-items')
-        new Collapse(myCollapse, {
-            show: false
-        })
+        if (window.innerWidth <= 992) { //Hide nav items only on width less than 992px
+            let myCollapse = document.getElementById('navbar-items')
+            new Collapse(myCollapse, {
+                show: false
+            })
+        }
     }
 
     return (
